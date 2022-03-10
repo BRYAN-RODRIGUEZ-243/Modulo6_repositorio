@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package helpers;
 
 /**
@@ -18,22 +19,13 @@ public class Doctor {
     public Doctor( ){
         
     }
-    
-    public Doctor( String NuevoNombre){
-        nombre = NuevoNombre;
-    }
-    public String getnombre(){
-        return nombre;
+    //Metodos seters
+    public void setnombre (String nombre){
+   this.nombre = nombre; 
     }
     
-    public int getedad(){
-        return edad;
-    }
-    public void setedad(int nuevaEdad){
-        edad = nuevaEdad;
-    }
-    public int getexperiencia(){
-        return experiencia; 
+    public void setedad(int edad){
+        this.edad = edad;
     }
     public void setexperiencia(int NuevaExperiencia){
         experiencia = NuevaExperiencia;
@@ -41,6 +33,22 @@ public class Doctor {
     public void setespecialidad(String NuevaEspecialidad){
         especialidad = NuevaEspecialidad;
     }
+    
+    
+    //Metodos geters
+    public String getnombre(){
+        return nombre;
+    }
+    
+    public int getedad(){
+        return edad;
+    }
+    
+    public int getexperiencia(){
+        return experiencia; 
+    }
+    
+    
     public String getEspecialidad(){
         return especialidad;
 }
