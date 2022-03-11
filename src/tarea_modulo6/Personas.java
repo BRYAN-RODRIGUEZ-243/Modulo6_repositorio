@@ -1,4 +1,4 @@
-package tarea_modulo_6;
+package tarea_modulo6;
 
 import helpers.Doctor;
 import helpers.Deportistas;
